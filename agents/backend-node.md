@@ -4,7 +4,7 @@
 
 ## Stack exacto
 - **Node.js** 20 LTS
-- **Express** 4.x con TypeScript
+- **nestjs** 4.x con TypeScript
 - **Prisma** ORM (no Sequelize, no TypeORM — Prisma tiene mejor DX)
 - **PostgreSQL** como base de datos principal
 - **JWT** (jsonwebtoken) para autenticación
