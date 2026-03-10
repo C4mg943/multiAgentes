@@ -38,12 +38,27 @@ que siga buenas prácticas reales de la industria.
 6. Manejo de errores explícito, nunca swallow exceptions
 7. Commits en inglés, formato: `type(scope): description`
 
+## Reglas generales de código
+
+Siempre tipado: TypeScript en JS/TS, type hints en Python
+Variables y funciones en camelCase (JS/TS), snake_case (Python)
+Clases en PascalCase en todos los lenguajes
+Archivos de componentes: PascalCase.tsx, utilidades: camelCase.ts
+Sin console.log en producción, usar logger apropiado
+Manejo de errores explícito, nunca swallow exceptions
+Commits en inglés, formato: type(scope): description
+
 ## Cómo usar este sistema
-- Para trabajo de frontend web → leer `agents/frontend-react.md`
-- Para frontend Angular → leer `agents/frontend-angular.md`
-- Para backend Node → leer `agents/backend-node.md`
-- Para backend Python → leer `agents/backend-python.md`
-- Para backend Java → leer `agents/backend-java.md`
-- Para documentar → leer `agents/documentacion.md`
-- Para revisar código → leer `agents/revisor.md`
-- Para decisiones de arquitectura → ver `arquitectura/`
+
+Para trabajo de frontend web → leer agents/frontend-react.md
+Para frontend Angular → leer agents/frontend-angular.md
+Para backend Node → leer agents/backend-node.md
+Para backend Python → leer agents/backend-python.md
+Para backend Java → leer agents/backend-java.md
+Para base de datos / PostgreSQL → leer agents/base-de-datos.md
+Para documentar → leer agents/documentacion.md
+Para revisar código → leer agents/revisor.md
+Para metodología RUP → leer agents/metodologia-rup.md
+Para metodología Scrum → leer agents/metodologia-scrum.md
+Para despliegue en producción → leer agents/despliegue.md
+Para decisiones de arquitectura → ver arquitectura/
